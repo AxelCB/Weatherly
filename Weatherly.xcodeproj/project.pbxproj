@@ -21,6 +21,7 @@
 		A13C4AD622BB4266007AB3E9 /* city.list.json in Resources */ = {isa = PBXBuildFile; fileRef = A13C4AD522BB4266007AB3E9 /* city.list.json */; };
 		A13C4AD922BB42AE007AB3E9 /* CityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13C4AD822BB42AE007AB3E9 /* CityService.swift */; };
 		A13C4ADC22BB433A007AB3E9 /* CityListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13C4ADB22BB433A007AB3E9 /* CityListViewModel.swift */; };
+		A13C4ADF22BB4383007AB3E9 /* CityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13C4ADE22BB4383007AB3E9 /* CityListView.swift */; };
 		A96B4F1CDFD20E03AEA741E3 /* Pods_WeatherlyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F783695254A961525455863 /* Pods_WeatherlyTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		A13C4AD522BB4266007AB3E9 /* city.list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.list.json; sourceTree = "<group>"; };
 		A13C4AD822BB42AE007AB3E9 /* CityService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityService.swift; sourceTree = "<group>"; };
 		A13C4ADB22BB433A007AB3E9 /* CityListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityListViewModel.swift; sourceTree = "<group>"; };
+		A13C4ADE22BB4383007AB3E9 /* CityListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityListView.swift; sourceTree = "<group>"; };
 		B781984C1334F57C7539F7D0 /* Pods-WeatherlyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherlyUITests.release.xcconfig"; path = "Target Support Files/Pods-WeatherlyUITests/Pods-WeatherlyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DF9D318207C11DE27A8EBD1F /* Pods-WeatherlyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherlyUITests.debug.xcconfig"; path = "Target Support Files/Pods-WeatherlyUITests/Pods-WeatherlyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +139,7 @@
 		A13C4A8F22BB2CD1007AB3E9 /* Weatherly */ = {
 			isa = PBXGroup;
 			children = (
+				A13C4ADD22BB4383007AB3E9 /* View */,
 				A13C4ADA22BB433A007AB3E9 /* ViewModel */,
 				A13C4AD722BB427D007AB3E9 /* Service */,
 				A13C4AD522BB4266007AB3E9 /* city.list.json */,
@@ -202,6 +205,14 @@
 			name = ViewModel;
 			path = Weatherly/ViewModel;
 			sourceTree = SOURCE_ROOT;
+		};
+		A13C4ADD22BB4383007AB3E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A13C4ADE22BB4383007AB3E9 /* CityListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
 		};
 		C18C33A3FE06157CAA62AB35 /* Frameworks */ = {
 			isa = PBXGroup;
@@ -438,6 +449,7 @@
 				A13C4AD922BB42AE007AB3E9 /* CityService.swift in Sources */,
 				A13C4A9122BB2CD1007AB3E9 /* AppDelegate.swift in Sources */,
 				A13C4A9322BB2CD1007AB3E9 /* SceneDelegate.swift in Sources */,
+				A13C4ADF22BB4383007AB3E9 /* CityListView.swift in Sources */,
 				A13C4ADC22BB433A007AB3E9 /* CityListViewModel.swift in Sources */,
 				A13C4ACA22BB36F0007AB3E9 /* City.swift in Sources */,
 				A13C4A9522BB2CD1007AB3E9 /* ContentView.swift in Sources */,
